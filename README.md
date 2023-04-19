@@ -1,6 +1,8 @@
 # UE20CS351_CC_MINI_PROJECT-04
 
 Monolith architecture diagram
+
+
 ![image](https://user-images.githubusercontent.com/114393207/233169164-d79e898a-3399-4e77-b693-823142a73b2b.png)
 
 
