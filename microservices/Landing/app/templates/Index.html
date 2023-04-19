@@ -1,0 +1,40 @@
+<html>
+<style>
+	div {
+  border-style: dashed;
+  border-bottom-width: thin;
+}
+</style>
+   <body bgcolor="Beige">
+	<center><h1>Monolithic Breakdown</h1>
+	<br>
+	<br>
+      <h1><c>Arithmetic Microservices</c></h1>
+      <form action="" method="POST">
+         <font size ="+3">Enter the First number : <input name="first"></font>
+	   <br>
+         <br>
+         <font size ="+3">Enter the Second number: </font><input name="second"></font>
+         <br>
+         <br>
+          <font size ="+3">Enter Operation: </font><select id="op" name="operation">
+            <option value="add">Addition</option>
+            <option value="minus">Subtraction</option>
+            <option value="multiply">Multiplication</option>
+            <option value="divide">Division</option>
+            <option value="greater_than">Greater_than</option>
+            <option value="less_than">Less_than</option>
+            <option value="equal">Equal</option>
+            <option value="modulus">Modulus</option>
+            <option value="exponent">Exponent</option> 
+            <option value="gcd">Gcd</option>            
+            <option value="lcm">Lcm</option>            
+          </select>
+         <br><br>
+         <input type="submit" name="submit_button">
+      </form>
+       <h1><div><b>{% for message in get_flashed_messages() %}
+         {{message}}
+      {% endfor %}</b></div></center></h1>
+   </body>
+</html>
